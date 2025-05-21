@@ -120,7 +120,6 @@ function Checkout({ cart, setcart, dop }) {
                       <span>
                         Quantity:
                         <input
-                          readOnly
                           type="number"
                           disabled
                           className="quantity-label"
