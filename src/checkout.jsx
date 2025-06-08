@@ -155,6 +155,7 @@ function Checkout({ cart, setcart, dop }) {
                           type="radio"
                           className="delivery-option-input"
                           name={`delivery-option-${item.id}`}
+                          min={1}
                         />
                         <div>
                           <div className="delivery-option-date">
